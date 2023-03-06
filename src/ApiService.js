@@ -1,6 +1,6 @@
 import axios from 'axios';
 // can be moved to separate file system like Endpoint.js
-const BASE_URL = 'http://localhost:8000/';
+const BASE_URL = 'https://mas-pas-app.herokuapp.com/';
 const GET_CURRENCY_ENDPOINT = BASE_URL + 'api/v1/currency';
 class ApiService {
   static ApiError(err) {
